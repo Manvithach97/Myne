@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #60a5fa;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .section {
+      background: linear-gradient(90deg, #1e293b, #0f172a);
+      padding: 1.5rem 2rem;
+      margin: 1rem 0;
+      border-radius: 1rem;
+      width: 100%;
+      max-width: 700px;
+      box-shadow: 0 0 1rem -0.25rem #34d39966;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 2rem -0.5rem #60a5fa;
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      color: #34d399;
+      margin-bottom: 0.5rem;
+    }
+
+    .section p {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    .section a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+      color: #60a5fa;
+    }
+
+    .icon {
+      margin-right: 0.5rem;
+      color: #60a5fa;
+    }
+
+    @media (max-width: 640px) {
+      .section {
+        padding: 1.25rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>More About Me</h1>
+
+  <div class="section">
+    <h2><i class="fas fa-guitar icon"></i>Guitar Journey</h2>
+    <p>I enjoy playing acoustic and electric guitar during my free time. From cover songs to improvisation, it’s my creative escape.</p>
+    <!-- Optional: link to video or Instagram reel -->
+    <a href="https://www.instagram.com/yourguitarprofile" target="_blank">Guitar Clips</a>
+  </div>
+
+  <div class="section">
+    <h2><i class="fab fa-instagram icon"></i>Instagram</h2>
+    <p>TechReve is an Instagram page I co-manage with my team, where we interview seniors and share their insights and experiences as Instagram Reels and Spotify podcasts. We also regularly post internship opportunities, career tips, and tech-related content to help students navigate their professional journey.
+
+</p>
+    <a href="https://www.instagram.com/tech_reve/" target="_blank">TechReve</a>
+  </div>
+
+  <div class="section">
+    <h2><i class="fab fa-linkedin icon"></i>LinkedIn</h2>
+    <p>Let’s connect professionally. I share my projects, achievements, and tech journey here.</p>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="section">
+    <h2><i class="fab fa-github icon"></i>GitHub Projects</h2>
+    <p>Explore my development work including web apps, mini projects, and open-source contributions.</p>
+    <a href="https://github.com/seraprogrammer" target="_blank">GitHub</a>
+  </div>
+
+</body>
+</html>
