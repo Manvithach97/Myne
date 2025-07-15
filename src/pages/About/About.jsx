@@ -23,7 +23,7 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hi! I'm <strong>Ch. Manvitha</strong>, a 3rd-year Computer Science and Engineering student at BVRITH. I’m passionate about crafting engaging, efficient web experiences using JavaScript and modern web technologies.
+                Hi! I'm <strong>Ch. Manvitha</strong>, a 4rth-year Computer Science and Engineering student at BVRITH. I’m passionate about crafting engaging, efficient web experiences using JavaScript and modern web technologies.
               </p>
               <p className="text-white">
                 Beyond the world of coding, I express myself through music and creativity. I'm a guitarist, singer, and content creator who loves blending art with technology. Whether it's strumming chords, producing reels, or building user interfaces, I believe creativity has no boundaries.

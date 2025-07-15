@@ -1,5 +1,4 @@
-import React from "react";
-import { Cpu, Activity } from "lucide-react";
+import { Activity, Cpu } from "lucide-react";
 
 const ExperienceCard = ({ title, company, period, description, icon: Icon }) => (
   <div className="group relative overflow-hidden transform hover:-translate-y-2 transition-all duration-300">
@@ -61,7 +60,7 @@ const ExperienceSection = () => {
       company: "PwC",
       period: "2025 - Present",
       description:
-        "Currently working on real-world projects as an apprentice, gaining hands-on experience in corporate workflows and practices.",
+        "Currently I'm an apprentice at PWC, gaining hands-on experience in corporate workflows and practices.",
     },
   ];
 

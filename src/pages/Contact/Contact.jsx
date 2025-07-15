@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Send, Phone, MapPin, Mail } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
+import { useState } from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -52,7 +52,7 @@ export default function Contact() {
     }
 
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your actual Web3Forms key
+    form.append("access_key", "79ebe82a-2b6a-4c17-9075-9be13bad791d"); // Replace with your actual Web3Forms key
     form.append("name", formData.name);
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");
@@ -65,6 +65,7 @@ export default function Contact() {
       });
 
       const result = await response.json();
+      console.log(result);
 
       if (response.ok) {
         setStatus("Message sent successfully!");
